@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Interaje 02</string>
     <string name="novo_nome"> Novo nome </string>
+    <string name="button_a">Botão A</string>
 </resources>
