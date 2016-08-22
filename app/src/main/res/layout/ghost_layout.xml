@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:background="#333"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="6dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="6dp"
+            android:text="105"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginLeft="40dp"
+                android:text="ENERGIA"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="6dp"
+                android:background="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginLeft="6dp"
+                android:text="CHEIA"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Segunda Linha -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#000"></LinearLayout>
+
+    <!-- Terceira Linha -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#606060"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:textColor="#FFF"
+            android:text="Qual é o Pokémon?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:textColor="#FFF"
+            android:text="Conhece todos eles?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:background="#FFF"
+                    android:drawableLeft="@drawable/ic_1"
+                    android:drawablePadding="9dp"
+                    android:drawableStart="@drawable/ic_1"
+                    android:gravity="center_vertical"
+                    android:text="Botão 1"
+                    android:textAllCaps="false"
+                    android:textColor="#f7325f" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:background="#FFF"
+                    android:drawableLeft="@drawable/ic_2"
+                    android:drawablePadding="9dp"
+                    android:drawableStart="@drawable/ic_2"
+                    android:gravity="center_vertical"
+                    android:text="Botão 2"
+                    android:textAllCaps="false"
+                    android:textColor="#CCC000" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:background="#FFF"
+                    android:drawableLeft="@drawable/ic_3"
+                    android:drawablePadding="9dp"
+                    android:drawableStart="@drawable/ic_3"
+                    android:gravity="center_vertical"
+                    android:text="Botão 3"
+                    android:textAllCaps="false"
+                    android:textColor="#7a5cfe" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:background="#FFF"
+                    android:drawableLeft="@drawable/ic_4"
+                    android:drawablePadding="9dp"
+                    android:drawableStart="@drawable/ic_4"
+                    android:gravity="center_vertical"
+                    android:text="Botão 4"
+                    android:textAllCaps="false"
+                    android:textColor="#00ced1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:text="PERGUNTAS VISTAS"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    style="@style/bottom_textview"
+                    android:text="SEU NÍVEL"
+                    android:textSize="8sp" />
+
+                <TextView
+                    style="@style/bottom_textview"
+                    android:text="6"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <View
+                android:background="@color/colorAccent"
+                android:layout_width="1dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/bottom_textview"
+                    android:layout_marginTop="8dp"
+                    android:text="SEGUIDORES"
+                    android:textSize="8sp" />
+
+                <TextView
+                    style="@style/bottom_textview"
+                    android:text="2,25M"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/colorAccent"
+                android:layout_width="1dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/bottom_textview"
+                    android:layout_marginTop="8dp"
+                    android:text="NVL PRÓX TÍTULO"
+                    android:textSize="8sp" />
+
+                <TextView
+                    style="@style/bottom_textview"
+                    android:text="10"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
